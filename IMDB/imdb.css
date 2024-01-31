@@ -1,0 +1,101 @@
+.container-fluid{
+   background-color: #00003d;
+   height: 100vh;
+}
+.home{
+    width:40%;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+
+.favourite{
+    
+    display: inline-block;
+    /* vertical-align: top; */
+    /* border: 1px solid rgb(0, 217, 255); */
+    margin-left: 0%;
+    margin-bottom: 3%;
+}
+
+.details{
+    /* width: 34%;
+    display: inline-block;
+    border: 1px solid rgb(255, 0, 200);
+    visibility: visible;
+    position: absolute;
+    margin-left: -57%;
+    margin-top: 8%; */
+    margin-top: 8%;
+    visibility: hidden;
+}
+
+#mainDiv{
+    border: 1px solid grey;
+    margin: 0%;
+    width: 100%;
+    margin-left: 0%;
+}
+input[type=text] {
+    width: 95%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /* background-image: url('./Assets/camera.png');  */
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 45px;
+    margin: 2%;
+}
+#micon{
+    float: left;
+    width: 2%;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+#movieResult{
+    margin-left: 5%;
+    display: inline-block;
+    max-width: 75%;
+    margin-bottom: 5%;
+}
+#fav{
+    float: right;
+    width: 5%;
+    margin-right: 5%;
+    visibility: hidden;
+}
+#delete{
+    width: 5%;
+    float: right;
+}
+.image-container {
+    width: 300px; /* Set the fixed width of the container */
+    height: 450px; /* Set the fixed height of the container */
+    overflow: hidden; /* Hide any content that overflows the container */
+    /* border: 1px solid #ccc; Optional: Add a border for visualization */
+    margin-top: 10%;
+}
+
+.image-container img {
+    width: 100%; /* Make the image fill the entire container width */
+    height: 100%; /* Make the image fill the entire container height */
+    object-fit: cover; /* Scale the image to maintain its aspect ratio and cover the container */
+}
+.c-w{
+    color: white;
+}
+.thead{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: cursive;
+}
+.tbody{
+  padding-left: 5%;
+  font-family: emoji;
+}
+.detail-div{
+    margin-top: 2%;
+}
